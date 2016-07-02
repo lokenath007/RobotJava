@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0 (Jython 2.7.0 on java1.7.0_79)" generated="20160701 22:04:16.499">
+<suite source="/Users/lokenath/Documents/workspace/JavaRobot/src/test/robotframework/acceptance" id="s1" name="Acceptance">
+<suite source="/Users/lokenath/Documents/workspace/JavaRobot/src/test/robotframework/acceptance/Testcase_Case.robot" id="s1-s1" name="Testcase Case">
+<test id="s1-s1-t1" name="Login Mercury">
+<kw library="Selenium2Library" name="Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;</doc>
+<arguments>
+<arg>http://newtours.demoaut.com/</arg>
+<arg>ff</arg>
+</arguments>
+<msg timestamp="20160701 22:04:18.017" level="INFO">browserName: ff</msg>
+<msg timestamp="20160701 22:04:18.020" level="INFO">Opening browser 'ff' to base url 'http://newtours.demoaut.com/'</msg>
+<status status="PASS" endtime="20160701 22:04:24.152" starttime="20160701 22:04:18.010"></status>
+</kw>
+<status status="PASS" critical="yes" endtime="20160701 22:04:24.161" starttime="20160701 22:04:18.006"></status>
+</test>
+<test id="s1-s1-t2" name="Check Page Title">
+<kw library="Selenium2Library" name="Title Should Be">
+<doc>Verify the current page title is exactly &lt;b&gt;title&lt;/b&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;title&lt;/b&gt;&amp;nbsp;The title to verify.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Title Should Not Be`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Title Should Contain`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Title Should Not Contain`&lt;br&gt;</doc>
+<arguments>
+<arg>Welcome: Mercury Tours</arg>
+</arguments>
+<msg timestamp="20160701 22:04:24.181" level="INFO">Page title is 'Welcome: Mercury Tours'.</msg>
+<status status="PASS" endtime="20160701 22:04:24.184" starttime="20160701 22:04:24.169"></status>
+</kw>
+<status status="PASS" critical="yes" endtime="20160701 22:04:24.186" starttime="20160701 22:04:24.165"></status>
+</test>
+<test id="s1-s1-t3" name="Click Register Link">
+<kw library="Selenium2Library" name="Click Link">
+<doc>Click on the link identified by &lt;b&gt;locator&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>REGISTER</arg>
+</arguments>
+<msg timestamp="20160701 22:04:24.206" level="INFO">Clicking link 'REGISTER'.</msg>
+<status status="PASS" endtime="20160701 22:04:25.994" starttime="20160701 22:04:24.200"></status>
+</kw>
+<status status="PASS" critical="yes" endtime="20160701 22:04:25.996" starttime="20160701 22:04:24.196"></status>
+</test>
+<test id="s1-s1-t4" name="Check Page Title">
+<kw library="Selenium2Library" name="Title Should Be">
+<doc>Verify the current page title is exactly &lt;b&gt;title&lt;/b&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;title&lt;/b&gt;&amp;nbsp;The title to verify.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Title Should Not Be`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Title Should Contain`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Title Should Not Contain`&lt;br&gt;</doc>
+<arguments>
+<arg>Register: Mercury Tours</arg>
+</arguments>
+<msg timestamp="20160701 22:04:26.013" level="INFO">Page title is 'Register: Mercury Tours'.</msg>
+<status status="PASS" endtime="20160701 22:04:26.014" starttime="20160701 22:04:26.003"></status>
+</kw>
+<status status="PASS" critical="yes" endtime="20160701 22:04:26.016" starttime="20160701 22:04:26.000"></status>
+</test>
+<doc>A resource file containing the application specific keywords</doc>
+<status status="PASS" endtime="20160701 22:04:26.025" starttime="20160701 22:04:16.853"></status>
+</suite>
+<status status="PASS" endtime="20160701 22:04:26.061" starttime="20160701 22:04:16.514"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0">Critical Tests</stat>
+<stat pass="4" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" id="s1" fail="0" name="Acceptance">Acceptance</stat>
+<stat pass="4" id="s1-s1" fail="0" name="Testcase Case">Acceptance.Testcase Case</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20160701 22:04:25.998" level="WARN">Multiple test cases with name 'Check Page Title' executed in test suite 'Acceptance.Testcase Case'.</msg>
+</errors>
+</robot>

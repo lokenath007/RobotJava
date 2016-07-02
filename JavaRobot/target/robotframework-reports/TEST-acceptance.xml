@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" skip="0" tests="4" name="Acceptance">
+<testcase classname="Acceptance.Testcase Case" time="6" name="Login Mercury">
+</testcase>
+<testcase classname="Acceptance.Testcase Case" time="0" name="Check Page Title">
+</testcase>
+<testcase classname="Acceptance.Testcase Case" time="2" name="Click Register Link">
+</testcase>
+<testcase classname="Acceptance.Testcase Case" time="0" name="Check Page Title">
+</testcase>
+</testsuite>
